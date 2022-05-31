@@ -9,6 +9,7 @@ public class PG_ScienceDepartment extends MathsDepartment{
 		
 		float i = 5;
 		
+		System.out.println("code modified");
 		System.out.println(i/2);
 	
 	}
