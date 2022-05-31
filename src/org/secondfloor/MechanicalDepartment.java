@@ -12,6 +12,11 @@ public class MechanicalDepartment {
 
    public void studentTwo(){
    }
+   
+   public void studentThree(){
+	   
+	   System.out.println("hii");
+   }
 
    public static void main(String[] args){
       
@@ -19,5 +24,7 @@ public class MechanicalDepartment {
       obj.studentOne();
      
    }
+   
+   
 
 }

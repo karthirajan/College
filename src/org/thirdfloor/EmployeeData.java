@@ -11,7 +11,7 @@ public class EmployeeData {
 		i[2] = 30;
 		i[3] = 40;
 		i[4] = 20;
-		i[2] = 35;
+		
 		
 		
 		for(int j : i){
