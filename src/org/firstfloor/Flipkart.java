@@ -68,10 +68,10 @@ public class Flipkart {
 		  modelType.click();
 		  System.out.println("Mobile Type: " + modelType.getText());
 		  
+		  Thread.sleep(5000);
 		  TakesScreenshot ts = (TakesScreenshot)driver;
-
 		  File sc = ts.getScreenshotAs(OutputType.FILE);
-		  File pa = new File ("C:\\Users\\Bala karthi\\OneDrive\\Documents\\Git Projects\\Colege 2\\College\\Scnap\\ FlipKartphone2.png");
+		  File pa = new File ("C:\\Users\\Bala karthi\\OneDrive\\Documents\\Git Projects\\Colege 2\\College\\Scnap\\ FlipKartPhoneDetails.png");
 		  FileUtils.copyFile(sc, pa);
 
 }
