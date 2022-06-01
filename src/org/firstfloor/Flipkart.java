@@ -12,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class Flipkart {
@@ -45,12 +46,9 @@ public class Flipkart {
 		 mobile.sendKeys(Keys.ENTER);
 		 
 		 Thread.sleep(3000);
-		 
-		 WebElement mobilePrice = driver.findElement(By.xpath("(//select[@class= '_2YxCDZ'])[2]"));
-		 mobilePrice.click();
-		 
-		 Select s = new Select(mobilePrice);
-		 s.selectByValue("10000");
+         WebElement priceDrag = driver.findElement(By.xpath("(//div [contains (@style, 'transform')])[2]"));
+		 Actions a = new Actions (driver);
+		 a.dragAndDropBy(priceDrag, -150, 0).perform();
 		 
 		 WebElement modelPrice = driver.findElement(By.xpath("//div [@class = '_3sckoD']"));
 		  System.out.println("Mobile Price is: " + modelPrice.getText());
@@ -73,7 +71,7 @@ public class Flipkart {
 		  TakesScreenshot ts = (TakesScreenshot)driver;
 
 		  File sc = ts.getScreenshotAs(OutputType.FILE);
-		  File pa = new File ("C:\\Users\\Bala karthi\\OneDrive\\Documents\\Git Projects\\Colege 2\\College\\Scnap\\ FlipKart.png");
+		  File pa = new File ("C:\\Users\\Bala karthi\\OneDrive\\Documents\\Git Projects\\Colege 2\\College\\Scnap\\ FlipKartphone2.png");
 		  FileUtils.copyFile(sc, pa);
 
 }
