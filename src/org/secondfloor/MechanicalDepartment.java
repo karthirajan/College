@@ -14,14 +14,14 @@ public class MechanicalDepartment {
    }
    
    public void studentThree(){
-	   
+	   System.out.println("hii"); 
 	   System.out.println("hii");
    }
 
    public static void main(String[] args){
       
       MechanicalDepartment  obj = new MechanicalDepartment();
-      obj.studentOne();
+      obj.studentThree();
      
    }
    
