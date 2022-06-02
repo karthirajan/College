@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.2.1/selenium-api-4.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.2.1/selenium-api-4.2.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.2.1/selenium-chrome-driver-4.2.1.jar"/>
@@ -82,5 +83,13 @@
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.2.1/lib/opentelemetry-semconv-1.14.0-alpha.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.2.1/lib/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.2.1/lib/slf4j-api-1.7.36.jar"/>
+=======
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="ss/commons-io-2.11.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="ss/commons-io-2.11.0-sources.jar"/>
+	<classpathentry kind="lib" path="ss/commons-io-2.11.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="ss/commons-io-2.11.0-tests.jar"/>
+	<classpathentry kind="lib" path="ss/commons-io-2.11.0.jar"/>
+>>>>>>> 02feb06255ca567180694f6ddcf6a28aa81490b5
 	<classpathentry kind="output" path="bin"/>
 </classpath>
