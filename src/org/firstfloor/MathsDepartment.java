@@ -12,6 +12,10 @@ public class MathsDepartment extends ScienceDepartment{
 
 	}
 	
+	public void weekEnd() {
+		System.out.println("Sunday");
+	}
+	
 	public static void main(String[] args) {
 		MathsDepartment m = new MathsDepartment();
 		m.kevinAarosh();
