@@ -16,6 +16,7 @@ public class MechanicalDepartment {
    public void studentThree(){
 	   System.out.println("hii"); 
 	   System.out.println("hii");
+	   System.out.println("Welcome to Mechanical Department");
    }
 
    public static void main(String[] args){
